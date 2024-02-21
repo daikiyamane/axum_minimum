@@ -1,0 +1,15 @@
+{
+  "name": "axum_minimum",
+  "workspaceFolder": "/home/user/workspace/axum_minimum",
+  "dockerComposeFile": ["../compose.yml"],
+  "service": "app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "editorconfig.editorconfig",
+        "eamodio.gitlens",
+        "rust-lang.rust-analyzer"
+      ]
+    }
+  }
+}
